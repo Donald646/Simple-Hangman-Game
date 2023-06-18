@@ -1,0 +1,60 @@
+:root {
+    --blue: #0a15ed;
+  }
+h1 {
+    text-align: center;
+    color: #226365;
+}
+body{
+    background-color: #5F9EA0;
+}
+.btns button {
+    background-color: #A0605F;
+    font-size: medium;
+    width: 40px;
+    height: 40px;
+    cursor: crosshair;
+    
+    margin: 5px;
+    display:table-row;
+    
+    
+} 
+.btns {
+    
+    text-align: center;
+    align-items: center;
+    transform: translate(0, 0%);
+    
+}
+#right {
+    text-align: center;
+    transform: translate(0, 50%);
+    width: 50%;
+    font-size: 60px;
+    margin:auto;
+}
+
+
+#drawing{
+    
+    text-align: center;
+    
+}
+
+#drawing {
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    border: solid black 5px;
+    background-color:#5F9EA0;
+    
+}
+#canvas{
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    
+}
